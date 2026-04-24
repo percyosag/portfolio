@@ -1,24 +1,50 @@
 import { Container, Row, Col, Card, Button, Badge } from "react-bootstrap";
 
+// const projects = [
+//   {
+//     title: "DevPilot 2026",
+//     description:
+//       "A full-stack micro-frontend application using React, GraphQL, Apollo Gateway, MongoDB, and AI review features.",
+//     tech: ["React", "GraphQL", "MongoDB", "Apollo", "AI"],
+//     github: "#",
+//     demo: "#",
+//   },
+//   {
+//     title: "CI/CD DevOps Project",
+//     description:
+//       "A cloud-based DevOps project using Azure Pipelines, Node.js, automated builds, tests, and deployment workflow.",
+//     tech: ["Azure DevOps", "Node.js", "CI/CD", "GitHub"],
+//     github: "#",
+//     demo: "#",
+//   },
+// ];
+
 const projects = [
   {
-    title: "DevPilot 2026",
+    title: "DevPilot 2026 (Micro-Frontend Platform)",
     description:
-      "A full-stack micro-frontend application using React, GraphQL, Apollo Gateway, MongoDB, and AI review features.",
-    tech: ["React", "GraphQL", "MongoDB", "Apollo", "AI"],
+      "Built a scalable micro-frontend system with a React shell and multiple remote apps using Module Federation. Integrated an Apollo Gateway to unify GraphQL services for authentication and project management. Implemented session-based authentication and dynamic user state across services.",
+    tech: ["React", "Vite", "GraphQL", "Apollo Gateway", "MongoDB"],
     github: "#",
     demo: "#",
   },
   {
-    title: "CI/CD DevOps Project",
+    title: "AI Review System (RAG Pipeline)",
     description:
-      "A cloud-based DevOps project using Azure Pipelines, Node.js, automated builds, tests, and deployment workflow.",
-    tech: ["Azure DevOps", "Node.js", "CI/CD", "GitHub"],
+      "Designed an AI-powered review system using a Retrieval-Augmented Generation (RAG) pipeline. Implemented document chunking, embeddings, and FAISS vector search to generate grounded responses with citations for draft validation.",
+    tech: ["LangChain", "FAISS", "Node.js", "AI", "Embeddings"],
+    github: "#",
+    demo: "#",
+  },
+  {
+    title: "CI/CD Pipeline with Azure DevOps",
+    description:
+      "Built a full CI/CD pipeline using Azure DevOps to automate build, test, and deployment processes. Integrated code quality checks, unit testing, and artifact generation for a full-stack application.",
+    tech: ["Azure DevOps", "CI/CD", "Node.js", "Testing"],
     github: "#",
     demo: "#",
   },
 ];
-
 function Projects() {
   return (
     <Container className="py-5">
