@@ -25,7 +25,7 @@ const projects = [
     description:
       "Built a scalable micro-frontend system with a React shell and multiple remote apps using Module Federation. Integrated an Apollo Gateway to unify GraphQL services for authentication and project management. Implemented session-based authentication and dynamic user state across services.",
     tech: ["React", "Vite", "GraphQL", "Apollo Gateway", "MongoDB"],
-    github: "#",
+    github: "https://github.com/percyosag/Group-4_COMP308Lab3",
     demo: "#",
   },
   {
@@ -33,15 +33,15 @@ const projects = [
     description:
       "Designed an AI-powered review system using a Retrieval-Augmented Generation (RAG) pipeline. Implemented document chunking, embeddings, and FAISS vector search to generate grounded responses with citations for draft validation.",
     tech: ["LangChain", "FAISS", "Node.js", "AI", "Embeddings"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/percyosag/Group-4_COMP308Lab3",
+    demo: "",
   },
   {
     title: "CI/CD Pipeline with Azure DevOps",
     description:
       "Built a full CI/CD pipeline using Azure DevOps to automate build, test, and deployment processes. Integrated code quality checks, unit testing, and artifact generation for a full-stack application.",
     tech: ["Azure DevOps", "CI/CD", "Node.js", "Testing"],
-    github: "#",
+    github: "https://github.com/percyosag/comp367-devops-project",
     demo: "#",
   },
 ];
@@ -73,10 +73,21 @@ function Projects() {
                 </div>
 
                 <div className="d-flex gap-2">
-                  <Button href={project.github} variant="outline-dark">
+                  <Button
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    variant="outline-dark"
+                  >
                     GitHub
                   </Button>
-                  <Button href={project.demo} variant="primary">
+
+                  <Button
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    variant="primary"
+                  >
                     Live Demo
                   </Button>
                 </div>
