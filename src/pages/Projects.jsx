@@ -1,25 +1,25 @@
 import { Container, Row, Col, Card, Button, Badge } from "react-bootstrap";
-
-// const projects = [
-//   {
-//     title: "DevPilot 2026",
-//     description:
-//       "A full-stack micro-frontend application using React, GraphQL, Apollo Gateway, MongoDB, and AI review features.",
-//     tech: ["React", "GraphQL", "MongoDB", "Apollo", "AI"],
-//     github: "#",
-//     demo: "#",
-//   },
-//   {
-//     title: "CI/CD DevOps Project",
-//     description:
-//       "A cloud-based DevOps project using Azure Pipelines, Node.js, automated builds, tests, and deployment workflow.",
-//     tech: ["Azure DevOps", "Node.js", "CI/CD", "GitHub"],
-//     github: "#",
-//     demo: "#",
-//   },
-// ];
-
 const projects = [
+  {
+    title: "ApexCommerce — Full-Stack MERN Ecommerce Platform",
+    description:
+      "Built and deployed a full-stack MERN ecommerce platform for a luxury fragrance store. The application includes product search, pagination, cart and checkout flow, JWT authentication with HTTP-only cookies, admin product/order/user management, PayPal Sandbox payments, MongoDB Atlas persistence, Render/Vercel deployment, and SonarQube Cloud quality analysis.",
+    tech: [
+      "React",
+      "Vite",
+      "Redux Toolkit",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "PayPal API",
+      "Render",
+      "Vercel",
+      "SonarQube Cloud",
+    ],
+    github: "https://github.com/percyosag/ApexCommerce-mern",
+    demo: "https://apex-commerce-mern.vercel.app",
+  },
   {
     title: "DevPilot 2026 (Micro-Frontend Platform)",
     description:
@@ -76,20 +76,20 @@ function Projects() {
                   <Button
                     href={project.github}
                     target="_blank"
-                    rel="noopener noreferrer"
-                    variant="outline-dark"
+                    rel="noreferrer"
                   >
                     GitHub
                   </Button>
 
-                  <Button
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    variant="primary"
-                  >
-                    Live Demo
-                  </Button>
+                  {project.demo && project.demo !== "#" && (
+                    <Button
+                      href={project.demo}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Live Demo
+                    </Button>
+                  )}
                 </div>
               </Card.Body>
             </Card>
