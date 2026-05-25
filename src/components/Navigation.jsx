@@ -6,7 +6,7 @@ function Navigation() {
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          Percy Portfolio
+          Percy Osunde
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>

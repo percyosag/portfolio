@@ -6,13 +6,15 @@ function Home() {
     <Container className="py-5">
       <Row className="align-items-center min-vh-75">
         <Col md={7}>
-          <p className="text-primary fw-semibold mb-2">Full-Stack Developer</p>
+          <p className="text-primary fw-semibold mb-2">
+            Full-Stack Software Developer
+          </p>
 
           <h1 className="display-4 fw-bold">Hi, I’m Percy Osunde</h1>
 
           <p className="lead text-muted mt-3">
-            I build full-stack web applications using React, Node.js, GraphQL,
-            MongoDB, and cloud-based DevOps tools.
+            I build full-stack web applications using React, Node.js, Spring
+            Boot, GraphQL, MongoDB, PostgreSQL, and cloud deployment tools.
           </p>
 
           <div className="d-flex gap-3 mt-4">
@@ -29,10 +31,11 @@ function Home() {
         <Col md={5} className="mt-5 mt-md-0">
           <div className="p-4 border rounded shadow-sm bg-light">
             <h5 className="fw-bold">Current Focus</h5>
-            <p className="mb-2">React + Micro-Frontends</p>
-            <p className="mb-2">GraphQL + Apollo</p>
-            <p className="mb-2">MongoDB + Node.js</p>
-            <p className="mb-0">Cloud + CI/CD</p>
+            <p className="mb-2">React + Node.js</p>
+            <p className="mb-2">Spring Boot + REST APIs</p>
+            <p className="mb-2">GraphQL + Apollo Federation</p>
+            <p className="mb-0">MongoDB + PostgreSQL</p>
+            <p className="mb-0">Cloud Deployment + CI/CD </p>
           </div>
         </Col>
       </Row>
