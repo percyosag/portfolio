@@ -23,6 +23,28 @@ const projects = [
     demo: "https://apex-commerce-mern.vercel.app",
   },
   {
+    title: "Spring Boot Ecommerce API — Java Backend REST API",
+    description:
+      "Backend ecommerce REST API built with Java 21, Spring Boot, PostgreSQL, Spring Security, JWT authentication, role-based authorization, Swagger/OpenAPI, and Azure DevOps CI. The API includes product and category management, user registration/login, authenticated cart operations, shipping address management, order creation, payment status handling, admin order controls, DTO-based request/response design, validation, global error handling, and service-layer unit tests.",
+    tech: [
+      "Java 21",
+      "Spring Boot",
+      "Spring Security",
+      "JWT",
+      "PostgreSQL",
+      "Spring Data JPA",
+      "Hibernate",
+      "Swagger/OpenAPI",
+      "JUnit 5",
+      "Mockito",
+      "Maven",
+      "Azure DevOps CI",
+      "Render",
+    ],
+    github: "https://github.com/percyosag/springboot-ecommerce-api",
+    demo: "https://springboot-ecommerce-api.onrender.com/swagger-ui/index.html",
+  },
+  {
     title: "DevPilot 2026 (Micro-Frontend Platform)",
     description:
       "Built a scalable micro-frontend system with a React shell and multiple remote apps using Module Federation. Integrated an Apollo Gateway to unify GraphQL services for authentication and project management. Implemented session-based authentication and dynamic user state across services.",
