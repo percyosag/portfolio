@@ -73,14 +73,14 @@ const projects = [
     demo: "",
   },
 
-  {
-    title: "CI/CD Pipeline with Azure DevOps",
-    description:
-      "Built a full CI/CD pipeline using Azure DevOps to automate build, test, and deployment processes. Integrated code quality checks, unit testing, and artifact generation for a full-stack application.",
-    tech: ["Azure DevOps", "CI/CD", "Node.js", "Testing"],
-    github: "https://github.com/percyosag/comp367-devops-project",
-    demo: "#",
-  },
+  // {
+  //   title: "CI/CD Pipeline with Azure DevOps",
+  //   description:
+  //     "Built a full CI/CD pipeline using Azure DevOps to automate build, test, and deployment processes. Integrated code quality checks, unit testing, and artifact generation for a full-stack application.",
+  //   tech: ["Azure DevOps", "CI/CD", "Node.js", "Testing"],
+  //   github: "https://github.com/percyosag/comp367-devops-project",
+  //   demo: "#",
+  // },
 ];
 function Projects() {
   return (
