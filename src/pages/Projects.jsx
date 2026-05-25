@@ -43,6 +43,7 @@ const projects = [
     ],
     github: "https://github.com/percyosag/springboot-ecommerce-api",
     demo: "https://springboot-ecommerce-api.onrender.com/swagger-ui/index.html",
+    demoLabel: "API Docs / Swagger",
   },
   {
     title:
@@ -123,7 +124,7 @@ function Projects() {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Live Demo
+                      {project.demoLabel || "Live Demo"}
                     </Button>
                   )}
                 </div>
