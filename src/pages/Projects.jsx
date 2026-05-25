@@ -3,16 +3,18 @@ const projects = [
   {
     title: "ApexCommerce — Full-Stack MERN Ecommerce Platform",
     description:
-      "Built and deployed a full-stack MERN ecommerce platform for a luxury fragrance store. The application includes product search, pagination, cart and checkout flow, JWT authentication with HTTP-only cookies, admin product/order/user management, PayPal Sandbox payments, MongoDB Atlas persistence, Render/Vercel deployment, and SonarQube Cloud quality analysis.",
+      "Full-stack MERN ecommerce platform for a luxury fragrance store, built with React, Redux Toolkit, RTK Query, Node.js, Express, MongoDB, and JWT authentication using HTTP-only cookies. The app includes product browsing, search, pagination, cart and checkout flow, PayPal Sandbox payments with server-side capture, order history, purchased-only reviews, admin product/user/order management, image uploads, Render/Vercel deployment, and SonarQube Cloud quality analysis.",
     tech: [
       "React",
       "Vite",
       "Redux Toolkit",
+      "RTK Query",
       "Node.js",
       "Express",
       "MongoDB",
-      "JWT",
-      "PayPal API",
+      "Mongoose",
+      "JWT + HTTP-only Cookies",
+      "PayPal REST API",
       "Render",
       "Vercel",
       "SonarQube Cloud",
