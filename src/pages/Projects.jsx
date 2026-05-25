@@ -71,33 +71,7 @@ const projects = [
       "https://github.com/percyosag/AI-Powered-Federated-Project-Review-Platform",
     demo: "",
   },
-  {
-    title:
-      "AI-Powered Federated Project Review Platform — Micro Frontends & GraphQL",
-    description:
-      "Full-stack developer collaboration platform built with React micro frontends, Module Federation, Apollo GraphQL Federation, Node.js, Express, MongoDB, and session-based authentication using HTTP-only cookies. The system allows users to register, create projects, add feature requests, submit implementation drafts, and receive AI-powered structured review feedback. The AI Review service uses an Agentic RAG workflow with embeddings, FAISS vector search, structured output validation, reflection, confidence scoring, and citations.",
-    tech: [
-      "React",
-      "Vite",
-      "Module Federation",
-      "GraphQL",
-      "Apollo Gateway",
-      "Apollo Federation",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "Mongoose",
-      "HTTP-only Cookies",
-      "LangChain.js",
-      "LangGraph.js",
-      "FAISS",
-      "Gemini API",
-      "Zod",
-    ],
-    github:
-      "https://github.com/percyosag/AI-Powered-Federated-Project-Review-Platform",
-    demo: "",
-  },
+
   {
     title: "CI/CD Pipeline with Azure DevOps",
     description:
