@@ -1,6 +1,29 @@
 import { Container, Row, Col, Card, Button, Badge } from "react-bootstrap";
 const projects = [
   {
+    title: "PercyBuilder Hire — Full-Stack Job Portal Platform",
+    description:
+      "Full-stack job portal platform built with React, Vite, Redux Toolkit, RTK Query, Java 21, Spring Boot, PostgreSQL, Spring Security, JWT authentication, and role-based access control. The platform includes public job browsing, candidate profiles and resume uploads, saved jobs, job applications, employer job management, employer application review, admin contact management, company management, and user/employer assignment workflows.",
+    tech: [
+      "React",
+      "Vite",
+      "Redux Toolkit",
+      "RTK Query",
+      "Java 21",
+      "Spring Boot",
+      "Spring Security",
+      "JWT",
+      "PostgreSQL",
+      "Spring Data JPA",
+      "Hibernate",
+      "Swagger/OpenAPI",
+      "Docker",
+      "Tailwind CSS",
+    ],
+    github: "https://github.com/percyosag/percybuilder-hire",
+    demo: "https://percybuilder-hire.vercel.app",
+  },
+  {
     title: "ApexCommerce — Full-Stack MERN Ecommerce Platform",
     description:
       "Full-stack MERN ecommerce platform for a luxury fragrance store, built with React, Redux Toolkit, RTK Query, Node.js, Express, MongoDB, and JWT authentication using HTTP-only cookies. The app includes product browsing, search, pagination, cart and checkout flow, PayPal Sandbox payments with server-side capture, order history, purchased-only reviews, admin product/user/order management, image uploads, Render/Vercel deployment, and SonarQube Cloud quality analysis.",
